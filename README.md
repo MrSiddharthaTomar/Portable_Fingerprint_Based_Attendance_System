@@ -1,2 +1,4 @@
 # Portable_Fingerprint_Based_Attendance_System
-a portable fingerprint-based attendance system using Raspberry Pi
+A portable fingerprint-based attendance system using Raspberry Pi
+
+This repository contains code for constructing a portable attendance system based on fingerprint recognition with a Raspberry Pi. It integrates an R307 fingerprint sensor with a Raspberry Pi model B+ using a TTL converter. The system boasts a user-friendly graphical interface allowing educators to accurately manage student attendance, preventing the occurrence of false or fabricated records. Notable features encompass fingerprint enrollment, re-enrollment, and deletion functionalities, alongside the ability to capture attendance and transmit data to a cloud server. The project harnesses Pygame for GUI development, PyFingerprint for fingerprint handling, Fernet for encryption/decryption tasks, and SQL-Connector for interfacing with SQL databases.
